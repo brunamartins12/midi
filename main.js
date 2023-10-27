@@ -1,12 +1,12 @@
-function tocaSomPom(){
-    document.querySelector('#som_tecla_pom').play();
+function tocaSomMar(){
+    document.querySelector('#som_tecla_mar').play();
 }
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+document.querySelector('.tecla_mar').onclick = tocaSomMar;
 
-function tocaSomClap(){
-    document.querySelector('#som_tecla_clap').play();
+function tocaSomTrovao(){
+    document.querySelector('#som_tecla_trovao').play();
 }
-document.querySelector('.tecla_clap').onclick = tocaSomClap;
+document.querySelector('.tecla_trovao').onclick = tocaSomClap;
 
 function tocaSomTim(){
         document.querySelector('#som_tecla_tim').play();
