@@ -6,22 +6,22 @@ document.querySelector('.tecla_mar').onclick = tocaSomMar;
 function tocaSomTrovao(){
     document.querySelector('#som_tecla_trovao').play();
 }
-document.querySelector('.tecla_trovao').onclick = tocaSomClap;
+document.querySelector('.tecla_trovao').onclick = tocaSomTrovao;
 
-function tocaSomTim(){
-        document.querySelector('#som_tecla_tim').play();
+function tocaSomVento(){
+        document.querySelector('#som_tecla_vento').play();
 }
-document.querySelector('.tecla_tim').onclick = tocaSomTim;
+document.querySelector('.tecla_vento').onclick = tocaSomVento;
 
-function tocaSomPuff(){
-    document.querySelector('#som_tecla_puff').play();
+function tocaSomCello(){
+    document.querySelector('#som_tecla_cello').play();
 }
-document.querySelector('.tecla_puff').onclick = tocaSomPuff;
+document.querySelector('.tecla_puff').onclick = tocaSomCello;
 
-function tocaSomSplash(){
-    document.querySelector('#som_tecla_splash').play();
+function tocaSomPiano(){
+    document.querySelector('#som_tecla_piano').play();
 }
-document.querySelector('.tecla_splach').onclick = tocaSomSplash;
+document.querySelector('.tecla_piano').onclick = tocaSomSplash;
 
 function tocaSomToim(){
     document.querySelector('#som_tecla_toim').play();
