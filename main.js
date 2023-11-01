@@ -1,7 +1,7 @@
-function tocaSomMar(){
-    document.querySelector('#som_tecla_mar').play();
+function tocaSomChuva(){
+    document.querySelector('#som_tecla_chuva').play();
 }
-document.querySelector('.tecla_mar').onclick = tocaSomMar;
+document.querySelector('.tecla_chuva').onclick = tocaSomChuva;
 
 function tocaSomTrovao(){
     document.querySelector('#som_tecla_trovao').play();
